@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gap-Regular-2';
+    src: url(../font//Gap-Regular-2.otf);
+    font-size: 14px;
+    color: #101010;
+}
+@font-face {
+    font-family: 'Gap-Regular-3';
+    src: url(../font/Gap-Regular-3.ttf);
+    font-size: 12px;
+    color: #666;
+}
