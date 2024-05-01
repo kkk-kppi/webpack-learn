@@ -1,0 +1,36 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --config webpack.config.js",
+    "dev:build": "webpack --config webpack.config.js",
+    "build": "webpack --config webpack.prod.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "2.7.14",
+    "vue-loader": "15.10.2",
+    "vue-router": "3.6.5",
+    "vuex": "3.6.2"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "csv-loader": "^3.0.5",
+    "dotenv-webpack": "^8.0.1",
+    "html-webpack-plugin": "^5.5.3",
+    "json5": "^2.2.3",
+    "style-loader": "^3.3.3",
+    "toml": "^3.0.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "xml-loader": "^1.2.1",
+    "yamljs": "^0.3.0"
+  }
+}

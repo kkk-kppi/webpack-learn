@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body, #app {
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    color: red;
+    background-image: url('../svg/none-data.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+img{
+    display: inline-block;
+}
+img:not(:last-child) {
+    margin-right: 10px;
+}
